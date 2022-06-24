@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850805274374",
+    "project_id": "la-tienda-42c1e",
+    "storage_bucket": "la-tienda-42c1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850805274374:android:65d759ab772feaabbc1087",
+        "android_client_info": {
+          "package_name": "com.example.latienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850805274374-rj5vrpd2epu2s2vl7fci76osvh6uj8re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkNImJCCz-aqd5YVzewg1EVKmqg7-LW5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850805274374-rj5vrpd2epu2s2vl7fci76osvh6uj8re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

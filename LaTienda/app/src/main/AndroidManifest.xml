@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.latienda">
+    <!-- Otorgar permisos para cargar imagenes del almacenamiento -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="La Tienda"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".InfoTienda2"
+            android:exported="false" />
+        <!-- Desactivar el ActionBar de la aplicación -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Inicio del llamado de las diferentes Activity creadas en el proyecto -->
+        <activity android:name=".UserProfile" /> <!-- Llamado a la activity UserProfile -->
+        <activity android:name=".EditProfile" /> <!-- Llamado a la activity EditProfile -->
+        <activity android:name=".CatalogoTienda" /> <!-- Llamado a la activity CatalogoTienda -->
+        <activity android:name=".Comentarios" /> <!-- Llamado a la activity Comentarios -->
+        <activity android:name=".InfoTienda" />
+        <activity android:name=".RegisterUser" />
+    </application>
+
+</manifest>

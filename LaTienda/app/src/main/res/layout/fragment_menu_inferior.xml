@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuInferior">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/Menu_Inferior"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Menu_Inferior_Button_Home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/botones_menu"
+                android:foreground="@drawable/icon_home"
+                android:foregroundGravity="center"/>
+
+            <Button
+                android:id="@+id/Menu_Inferior_Button_Store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/botones_menu"
+                android:foreground="@drawable/icon_store"
+                android:foregroundGravity="center"/>
+
+            <Button
+                android:id="@+id/Menu_Inferior_Button_Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/botones_menu"
+                android:foreground="@drawable/icon_profile_user"
+                android:foregroundGravity="center"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
